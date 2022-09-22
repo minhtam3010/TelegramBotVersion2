@@ -1,4 +1,4 @@
-package telegram
+package TelegramBot
 
 import (
 	"fmt"
