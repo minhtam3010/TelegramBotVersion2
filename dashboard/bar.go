@@ -2,10 +2,10 @@ package dashboard
 
 import (
 	"fmt"
-	"minhtam/convert"
 	"os"
 	"strings"
 
+	"github.com/Tech-by-GL/TelegramBot/convert"
 	"github.com/johnfercher/maroto/pkg/color"
 	"github.com/wcharczuk/go-chart/v2"
 )

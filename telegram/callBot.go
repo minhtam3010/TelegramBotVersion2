@@ -3,15 +3,16 @@ package telegram
 import (
 	"fmt"
 	"log"
-	"minhtam/PDF"
-	"minhtam/convert"
-	"minhtam/dashboard"
-	"minhtam/database"
+
 	"os"
 	"strconv"
 	"strings"
 	"time"
 
+	"github.com/Tech-by-GL/TelegramBot/PDF"
+	"github.com/Tech-by-GL/TelegramBot/convert"
+	"github.com/Tech-by-GL/TelegramBot/dashboard"
+	"github.com/Tech-by-GL/TelegramBot/database"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 	"gorm.io/driver/mysql"
 

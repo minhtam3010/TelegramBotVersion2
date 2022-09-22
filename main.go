@@ -6,10 +6,11 @@ import (
 	"encoding/base64"
 	"fmt"
 	"log"
-	"minhtam/singleton"
-	"minhtam/telegram"
+
 	"time"
 
+	"github.com/Tech-by-GL/TelegramBot/singleton"
+	"github.com/Tech-by-GL/TelegramBot/telegram"
 	driver "github.com/go-sql-driver/mysql"
 )
 
